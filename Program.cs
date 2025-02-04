@@ -5,7 +5,11 @@
         static void Main(string[] args)
         {
             //Miracle McMahon   
-            Console.WriteLine("Hello, World!");
+            string firstName = "Miracle";
+            string favMovie = "The Matrix";
+            
+            Console.WriteLine($"My name is {firstName.ToLower()} and my favorite movie is {favMovie}");
+            Console.WriteLine(favMovie.Contains("THE"));
         }
     }
 }
